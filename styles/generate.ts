@@ -1,0 +1,153 @@
+import { Dimensions, StyleSheet } from "react-native";
+
+const { width } = Dimensions.get("window");
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 20,
+    paddingTop: 70,
+  },
+  backButton: {
+    position: "absolute",
+    top: 20,
+    right: 46,
+    marginBottom: 24,
+  },
+  weather: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
+  },
+  temperature: {
+    fontSize: 24,
+    fontWeight: "400",
+    color: "#000",
+    paddingLeft: 30,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "400",
+    color: "#000",
+    textAlign: "center",
+    marginTop: 15,
+  },
+  text: {
+    fontSize: 12,
+    fontWeight: "700",
+    color: "#b5b5b5",
+    marginTop: 15,
+  },
+  inputContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#d9d9d9",
+    borderRadius: 30,
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    marginVertical: 10,
+    height: 60,
+  },
+  inputLabel: {
+    fontSize: 16,
+    fontWeight: "700",
+    color: "#000",
+  },
+  inputField: {
+    flex: 1,
+    textAlign: "right",
+    fontSize: 16,
+    fontWeight: "400",
+    color: "#000",
+    padding: 0,
+    margin: 0,
+  },
+  imageField: {
+    width: 220,
+    height: 190,
+    backgroundColor: "#d9d9d9",
+    marginRight: 5,
+  },
+  selectedColor: {
+    flex: 1,
+    textAlign: "right",
+    fontSize: 16,
+    fontWeight: "400",
+    color: "#000",
+  },
+  pickerContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "flex-end",
+    flex: 1,
+    gap: 10,
+  },
+  methodTitle: {
+    fontSize: 16,
+    marginBottom: 10,
+  },
+  disabled: {
+    opacity: 0.5,
+  },
+  selectedValue: {
+    fontSize: 16,
+    fontWeight: "400",
+    color: "#000",
+  },
+  picker: {
+    position: "absolute",
+    opacity: 0,
+    width: "100%",
+    height: "100%",
+  },
+  buttonContainer: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  loadingScreen: {
+    width: width * 0.9,
+    height: 360,
+    backgroundColor: "#e1e1e1",
+    borderRadius: 30,
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 4,
+  },
+  loadingText: {
+    position: "absolute",
+    fontWeight: 400,
+    fontSize: 24,
+    color: "#000",
+    bottom: 65,
+  },
+
+  weatherContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
+    paddingHorizontal: 16,
+  },
+  weatherItem: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  weatherText: {
+    marginLeft: 8,
+    fontSize: 16,
+    fontWeight: "400",
+    color: "#000",
+    paddingRight: 30,
+  },
+});
