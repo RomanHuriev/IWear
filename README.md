@@ -45,3 +45,15 @@ You can start developing by editing the files inside the **app** directory. This
 - **Firebase** — authentication, Firestore, Cloud Functions, and Storage
 - **OpenRouter AI API** — for clothing image analysis
 - **OpenWeatherMap API** — for weather-based outfit recommendations
+
+---
+
+## 🤝 Collaboration
+
+This project is part of a full-stack mobile application developed in collaboration with [@mzslav](https://github.com/mzslav).
+
+- 🔗 **Backend repository**: [IWear Back](https://github.com/mzslav/IWear_Back)
+
+The backend is built with Firebase Cloud Functions and handles AI analysis, weather integration, and user data storage.
+
+
