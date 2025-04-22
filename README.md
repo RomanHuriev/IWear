@@ -29,7 +29,7 @@ You can start developing by editing the files inside the **app** directory. This
 
 ---
 
-## 📸 Features
+## Features
 
 - Take photos of clothes directly from your phone
 - Analyze clothing type, color, and style using AI
@@ -39,7 +39,7 @@ You can start developing by editing the files inside the **app** directory. This
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **React Native + Expo** — frontend for iOS/Android
 - **Firebase** — authentication, Firestore, Cloud Functions, and Storage
@@ -48,7 +48,7 @@ You can start developing by editing the files inside the **app** directory. This
 
 ---
 
-## 🤝 Collaboration
+## Collaboration
 
 This project is part of a full-stack mobile application developed in collaboration with [@mzslav](https://github.com/mzslav).
 
