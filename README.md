@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/97022563-d607-43e8-847f-7be9b38fa382)
+
+
+
+
 # IWear - Mobile Fashion Assistant
 
 **IWear** is a mobile application built with [Expo](https://expo.dev/) that allows users to take photos of clothing, analyze them using AI, and generate stylish outfits based on their wardrobe and weather conditions.
@@ -55,5 +60,3 @@ This project is part of a full-stack mobile application developed in collaborati
 - 🔗 **Backend repository**: [IWear Back](https://github.com/mzslav/IWear_Back)
 
 The backend is built with Firebase Cloud Functions and handles AI analysis, weather integration, and user data storage.
-
-
