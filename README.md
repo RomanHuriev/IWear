@@ -1,13 +1,12 @@
-![image](https://github.com/user-attachments/assets/97022563-d607-43e8-847f-7be9b38fa382)
-
-
-
 
 # IWear - Mobile Fashion Assistant
 
 **IWear** is a mobile application built with [Expo](https://expo.dev/) that allows users to take photos of clothing, analyze them using AI, and generate stylish outfits based on their wardrobe and weather conditions.
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+![image](https://github.com/user-attachments/assets/97022563-d607-43e8-847f-7be9b38fa382)
+
 
 ## Get started
 
